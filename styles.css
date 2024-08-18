@@ -67,8 +67,9 @@ body {
   }
 
   .navbar .hamburger {
-    hamburger: block;
+    display: block;
   }
+
 
   .navbar.open .hamburger .icon-open {
     display: none;
