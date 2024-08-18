@@ -4,9 +4,9 @@ const  navbar = document.querySelector("#navbar");
 hamburgerToggle.addEventListener("click", onHamburgerClick);
 
 function onHamburgerClick() {
-  if(navbar.classList.contains("open")) {
-  navbar.classlist.add("open");
-}
-else {
-  navbar.classList.remove("open");
+  if(!navbar.classList.contains("open")) {
+    navbar.classlist.add("open");
+  } else {
+    navbar.classList.remove("open");
+  }
 }
